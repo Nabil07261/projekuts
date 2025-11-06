@@ -137,8 +137,8 @@
 .form-group select:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #D8CFBC;
-    box-shadow: 0 0 8px rgba(220, 38, 38, 0.2);
+    border-color: black;
+    box-shadow: 0 0 1px black;
     background-color: #ffffff;
 }
 .contact-form button{
@@ -151,7 +151,6 @@
     font-weight: bold;
     padding: 10px 15px;
     border-radius: 8px;
-    transition: background 1s;
     margin-bottom: 15px;
 }
 
