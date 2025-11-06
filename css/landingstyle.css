@@ -63,7 +63,7 @@
 .product-card-welcome button {
     border: none;
     color: #D8CFBC30;
-    background-color: #D8CFBC30;
+    background-color: transparent;
     padding: 10px 15px;
     border-radius: 8px;
     cursor: pointer;
@@ -89,8 +89,8 @@
 .catalog-container {
     display: flex;
     gap: 20px;
-    flex-wrap: wrap; /* supaya kalau layar kecil, otomatis turun baris */
-    justify-content: center; /* bisa diganti center */
+    flex-wrap: wrap; 
+    justify-content: center; 
     
 }
 
